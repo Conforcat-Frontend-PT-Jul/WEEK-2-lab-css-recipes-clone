@@ -75,7 +75,7 @@ ol > li {
   list-style: none;
 }
 ol > li:before {
-  content: counter(list, lower-alpha) ") ";
+  content: counter(list, number) ") ";
   counter-increment: list;
 }
 .cookingDirectionsHeader {
