@@ -9,7 +9,7 @@ body,
 html,
 main {
   margin: 0;
-  color: darkslategrey;
+  color: rgb(126, 127, 131);
 }
 /*Import the font and set the default size*/
 html {
@@ -31,6 +31,7 @@ h1 {
 }
 .info {
   width: 300px;
+  margin: 55px auto;
 }
 .sectionOne {
   display: flex;
@@ -38,11 +39,11 @@ h1 {
   align-content: center;
   align-items: center;
   width: 80%;
-  margin: 100px;
+  margin: 0 100px;
 }
 hr {
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid rgb(126, 127, 131);
 }
 .sectionTwo {
   display: flex;
@@ -68,6 +69,7 @@ hr {
 }
 ol {
   counter-reset: list;
+  padding: 0px 10px;
 }
 ol > li {
   list-style: none;
@@ -77,9 +79,18 @@ ol > li:before {
   counter-increment: list;
 }
 .cookingDirectionsHeader {
-  width: 95%;
+  width: 99%;
   align-items: flex-start;
 }
-h2 {
-  padding: 25px;
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
 }
