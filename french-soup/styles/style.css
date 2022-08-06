@@ -8,28 +8,27 @@ html {
   font-size: 18px
 }
 
-header{
-  width: 100%;
+header {
   height: 300px;
-  background-image:url("../images/soup.jpg");
+  background-image:
+  url("../images/soup.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  padding: 100px;
-  position: relative;
-  margin: 0 0 40px 20px;
-  
+  background-size: cover;
+  background-position: center;
 }
 
-h1{
+h1 {
   position: absolute;
-  top: 200px;
-  color:white;
+  top: 120px;
+  color:
+  white;
   font-weight: normal;
   font-size: 2.5rem;
-  z-index: 999;
+  width: 100%;
+  text-align: center;
 }
 
-#intro{
+#intro {
   text-align:start;
   font-size: 0.9rem;
   font-weight: lighter;
@@ -39,28 +38,24 @@ h1{
 }
 
 
-#soup{
+#soup {
   width: 100vw;
   padding:40px;
   display:flex;
-  /*position: absolute;*/
 }
 
 
-div{
+div {
   position: relative;
   display:inline-block;
 }
 
-#recipe-info{
-
-}
-
-h2{
+h2 {
   font-weight: normal;
   font-size: 0.9rem;
 }
-#ingredients, #directions {
+
+#ingredients, #directions  {
 text-align:start;
 font-size: 1rem;
 font-weight: lighter;
@@ -68,26 +63,27 @@ margin: 30px;
 font-size: 0.8rem;
 }
 
-ul li{
+ul li {
   list-style: none;
 }
-ul li::before{
+
+ul li::before {
   content: "- ";
 }
 
-#directions > p{
+#directions > p {
   margin-top: 30px;
   
 }
 
-hr{
+hr {
   margin: 10px auto 10px auto;
   width:70%;
  }
 
- img{
-  width: 190px;
-  height: 60px;
-  /* align-items: center; */
-  margin-left: 30%;
+ img {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
  } 
