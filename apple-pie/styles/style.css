@@ -7,7 +7,7 @@ body{
     background-image: url(../images/apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 900px;
     margin-top: 0;
     margin-bottom: 90px;
 }
@@ -28,8 +28,7 @@ h1{
 .introduction {
     margin-left: 270px;
     margin-right: 270px;
-   
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .border{
@@ -41,7 +40,7 @@ h1{
 .ingredients{
     margin-left: 270px;
     margin-top:50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .ingredients li:before{
@@ -69,6 +68,20 @@ ul{
 
 .directions ol li::before {
     content: counter(contador1)") "; 
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    
+}
+.info2{
+    margin-right: 250px;
+    max-width: 290px;
+}
+
+.info{
+    max-width: 290px;
 }
 
 
